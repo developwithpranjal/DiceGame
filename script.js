@@ -29,7 +29,7 @@ roll.addEventListener("click", () => {
   heading[initial - 1].classList.add("active");
 
   if (initial === 100) {
-      initial = 0;
+    initial = 0;
     alert("Congrats! You won the game.");
     heading.forEach((box) => box.classList.remove("active"));
   }
